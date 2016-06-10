@@ -5,7 +5,8 @@ simple uploader for http://p.iotek.org
 
 this was done just to learn how to handle http requests in go
 
-most of this code written by mjannsen on freenode/#go-nuts
+most of this code written by mjanssen on freenode/#go-nuts, who got it from
+http://stackoverflow.com/questions/24455147/go-lang-how-send-json-string-in-post-request/24455606#24455606
 
 install
 -------
