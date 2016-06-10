@@ -3,4 +3,6 @@ pup
 
 simple uploader for http://p.iotek.org
 
+this was done just to learn how to handle http requests in go
+
 most of this code written by mjannsen on freenode/#go-nuts
