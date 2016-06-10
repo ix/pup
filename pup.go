@@ -34,7 +34,7 @@ func prepare(fp string) *http.Request {
     check(err)
 
     var str = []byte(string(f))
-    req, err := http.NewRequest("PUT", url, bytes.NewBuffer(str))
+    req, err := http.NewRequest(http.MethodPut, url, bytes.NewBuffer(str))
     req.Header.Set("Content-Type", "text/html; charset=utf-8")
 
     return req
