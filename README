@@ -11,5 +11,5 @@ http://stackoverflow.com/questions/24455147/go-lang-how-send-json-string-in-post
 install
 -------
 
-    $ go get -insecure arcetera.moe/pup.git  # git protocol can't be secured
-    $ mv $GOPATH/bin/pup.git $GOPATH/bin/pup # i don't know why it does this
+    $ go get github.com/ix/pup
+
